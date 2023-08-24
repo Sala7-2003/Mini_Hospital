@@ -1,0 +1,3 @@
+D:/Personal_Projects/C++_Projects/Mini_Hospital/cmake-build-debug/CMakeFiles/Mini_Hospital.dir
+D:/Personal_Projects/C++_Projects/Mini_Hospital/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Personal_Projects/C++_Projects/Mini_Hospital/cmake-build-debug/CMakeFiles/rebuild_cache.dir

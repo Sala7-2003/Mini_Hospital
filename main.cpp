@@ -13,51 +13,6 @@ using namespace std::this_thread; // sleep_for, sleep_until
 using namespace std::chrono; // nanoseconds, system_clock, seconds
 using namespace std;
 
-int summation_from_X_to_Y (int SmallerNumber, int GreaterNumber)
-{
-    if ( GreaterNumber == SmallerNumber)
-        return GreaterNumber ;
-    else
-    {
-        return GreaterNumber + summation_from_X_to_Y(SmallerNumber,GreaterNumber-1);
-    }
-}
-
-int FastPower (int base, int power)
-{
-    if (power == 0 )
-        return 1 ;
-    int value = FastPower(base, power/2);
-    if (power % 2 == 0)
-    {
-        return value * value;
-    }
-    else
-    {
-        return base * value * value;
-    }
-}
-
-void binary_generation (int x)
-{
-    if (x == 0)
-        return;
-    else
-    {
-        binary_generation(x/2);
-        x%=2;
-        cout << x;
-    }
-
-}
-
-ll sum_of_an_array (ll array[],ll size)
-{
-    ll sum = 0;
-    for (int i =0; i < size ; i++)
-        sum+=array[i];
-    return sum;
-}
 
 const int Max_specialization = 20 ;
 const int Max_queue = 5;
